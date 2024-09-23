@@ -1,4 +1,8 @@
-# **pro-date** • [**Documentation**](./docs/classes/ProDate.md)
+**pro-date** • [**Docs**](globals.md)
+
+***
+
+# pro-date
 
 A lightweight date utility class for parsing, formatting, and manipulating dates.
 
