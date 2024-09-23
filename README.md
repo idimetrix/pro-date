@@ -1,4 +1,4 @@
-# **pro-date** • [**Documentation**](./docs/classes/ProDate.md)
+# **pro-date** • [**Documentation**](https://github.com/idimetrix/pro-date/blob/main/docs/classes/ProDate.md)
 
 A lightweight date utility class for parsing, formatting, and manipulating dates.
 

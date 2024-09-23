@@ -1,6 +1,6 @@
 {
   "name": "pro-date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight date utility class for parsing, formatting, and manipulating dates.",
   "license": "MIT",
   "author": {
