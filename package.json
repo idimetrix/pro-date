@@ -27,9 +27,9 @@
     "type": "tsc --noEmit --incremental",
     "tsc:clean": "tsc --build --clean",
     "prepare": "husky",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "docs": "typedoc --entryPoints ./src/index.ts --out docs --plugin typedoc-plugin-markdown"
   },
   "homepage": "https://github.com/idimetrix/pro-date#readme",
@@ -37,7 +37,31 @@
   "bugs": {
     "url": "https://github.com/idimetrix/pro-date/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "date-formatting",
+    "date-parser",
+    "date-manipulation",
+    "date-utility",
+    "timestamp",
+    "timezone",
+    "calendar",
+    "date-math",
+    "date-difference",
+    "date-comparison",
+    "business-days",
+    "iso8601",
+    "unix-timestamp",
+    "date-library",
+    "time-formatting",
+    "relative-time",
+    "humanize-date",
+    "date-helper",
+    "typescript",
+    "javascript"
+  ],
   "files": [
     "dist",
     "docs",
@@ -55,21 +79,20 @@
     }
   },
   "dependencies": {
-    "react": "18.3.1",
-    "typedoc": "0.26.7",
-    "typedoc-plugin-markdown": "4.2.8"
+    "react": "19.2.0",
+    "typedoc": "0.28.14",
+    "typedoc-plugin-markdown": "4.9.0"
   },
   "devDependencies": {
-    "@types/jest": "29.5.13",
-    "@types/node": "22.5.5",
-    "husky": "9.1.6",
-    "jest": "29.7.0",
-    "lint-staged": "15.2.10",
-    "nodemon": "3.1.7",
-    "prettier": "3.3.3",
-    "ts-jest": "29.2.5",
+    "@types/node": "24.10.0",
+    "@vitest/coverage-v8": "3.0.5",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.6",
+    "nodemon": "3.1.10",
+    "prettier": "3.6.2",
     "ts-node": "10.9.2",
-    "tsup": "8.3.0",
-    "typescript": "5.6.2"
+    "tsup": "8.5.0",
+    "typescript": "5.9.3",
+    "vitest": "3.0.5"
   }
 }
